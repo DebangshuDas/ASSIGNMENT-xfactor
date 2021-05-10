@@ -41,6 +41,6 @@ class Division{
 		System.out.print("Enter denominator : ");
 		den = sc.nextInt();
 		System.out.println("Result: " + Division.divide(num, den));
-        sc.close();
+        sc.close() ;
 	}
 }
