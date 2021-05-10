@@ -22,5 +22,6 @@ class TaxCalculate{
 		amount = sc.nextDouble();
 		double tax = TaxCalculate.calculate(amount);
 		System.out.println("Tax Calculated: " + tax + "\n New Amount: " + (amount - tax));
+        sc.close();
 	}
 }
