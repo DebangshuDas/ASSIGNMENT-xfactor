@@ -36,9 +36,9 @@ class FindAngle
 		angle = ob.calcAngle(hour, min);
 		
 		if(angle == -1)
-			System.out.println("Wrong Input");
+			System.out.println("Wrong Time model");
 		else
-			System.out.println("Angle is: " + angle+" degrees");
+			System.out.println("Angle between the hour and minute hand is: " + angle+" degrees");
         sc.close();
 	} 
 }
